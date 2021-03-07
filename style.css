@@ -268,7 +268,7 @@ h4 {
     height: 420px;
     width: 100%;
     position: absolute;
-    top: 0px;
+    top: 0;
     display: none;
 }
 
@@ -391,13 +391,13 @@ h4 {
 
 @media (min-width: 1024px) {
     .opacity {
-        background-position: 0px;
+        background-position: 0;
     }
 }
 
 @media (min-width: 768px) {
     .opacity {
-        background-position: 0px;
+        background-position: 0;
     }
 }
 
@@ -907,7 +907,7 @@ ul .slach:nth-child(2)::after {
     height: 188px;
     margin-bottom: 32px;
     display: flex;
-    box-shadow: 8px 11px 18px rgb(0 0 0 / 15%);
+    box-shadow: 8px 11px 18px rgb(0, 0, 0, 0.15);
     position: relative;
 }
 
@@ -1132,16 +1132,7 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-
-.joinNow p {
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
-    margin-top: 0;
-    margin-bottom: 0;
-
+    color: #FFFFFF
 }
 
 .join::after {
