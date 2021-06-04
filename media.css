@@ -13,6 +13,7 @@
         display: flex;
         padding-left: 8px;
         padding-right: 8px;
+        justify-content: space-between;
     }
 
     .loyalty {
@@ -343,6 +344,7 @@
 
     .reg_page {
         align-items: flex-start;
+
     }
 
 
@@ -418,7 +420,7 @@
     }
 
     .top {
-        width: 1119px;
+        width: 1110px;
         margin: 0 auto;
         position: absolute;
         top: -40px;
@@ -426,11 +428,9 @@
 
     .product_information {
         position: relative;
+        padding: 0 16px;
     }
 
-    .cards {
-        padding-left: 0;
-    }
 
     .order {
         width: 652px;
@@ -469,7 +469,4 @@
         line-height: 29px;
     }
 
-    .loyalty {
-        margin-left: 130px;
-    }
 }

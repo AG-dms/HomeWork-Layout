@@ -907,7 +907,7 @@ ul .slach:nth-child(2)::after {
     height: 188px;
     margin-bottom: 32px;
     display: flex;
-    box-shadow: 8px 11px 18px rgb(0, 0, 0, 0.15);
+    box-shadow: 8px 11px 18px rgba(0, 0, 0, 0.15);
     position: relative;
 }
 
@@ -1152,11 +1152,6 @@ h5 {
     font-weight: 300;
 }
 
-@media (min-width: 1140px) {
-    .loyalty {
-        margin-left: 130px;
-    }
-}
 
 .loyalinfo {
     font-style: normal;
